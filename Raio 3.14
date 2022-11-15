@@ -1,0 +1,22 @@
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+	
+	setlocale(LC_ALL, "portuguese_Brazil");
+	
+	 float raio,PI = 3.14, area;
+  
+  printf("digite o raio de um circulo: \n");
+  scanf("%f",&raio);
+  
+  area = PI * raio * raio;
+  
+  printf("qual foi sua area: %.2f\n",area);
+  
+	
+	system("pause");
+	return 0;
+}
